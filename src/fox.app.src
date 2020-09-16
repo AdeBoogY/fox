@@ -4,7 +4,7 @@
   {description, "Client lib for RabbitMQ"},
   {vsn, "2.1.0"},
   {registered, []},
-  {applications, [kernel, stdlib, amqp_client]},
+  {applications, [kernel, stdlib, amqp_client, herd]},
   {mod, {fox_app, []}},
   {env, [
          {connection_pool_size, 5},

@@ -1,12 +1,26 @@
 {"1.1.0",
-[{<<"amqp_client">>,{pkg,<<"amqp_client">>,<<"3.6.10">>},0},
+[{<<"amqp_client">>,{pkg,<<"amqp_client">>,<<"3.8.1">>},0},
+ {<<"credentials_obfuscation">>,
+  {pkg,<<"credentials_obfuscation">>,<<"1.1.0">>},
+  2},
+ {<<"goldrush">>,{pkg,<<"goldrush">>,<<"0.1.9">>},3},
  {<<"herd">>,
   {git,"https://github.com/wgnet/herd",
        {ref,"7ef6954e13e854f32b02a2b97362458ed5208f8d"}},
   0},
- {<<"rabbit_common">>,{pkg,<<"rabbit_common">>,<<"3.6.10">>},1}]}.
+ {<<"jsx">>,{pkg,<<"jsx">>,<<"2.9.0">>},2},
+ {<<"lager">>,{pkg,<<"lager">>,<<"3.8.0">>},2},
+ {<<"rabbit_common">>,{pkg,<<"rabbit_common">>,<<"3.8.1">>},1},
+ {<<"ranch">>,{pkg,<<"ranch">>,<<"1.7.1">>},2},
+ {<<"recon">>,{pkg,<<"recon">>,<<"2.5.0">>},2}]}.
 [
 {pkg_hash,[
- {<<"amqp_client">>, <<"F26FBACCA4E71F58EBA1A57746E5F10598550AA46E89BC67060DA6AD1A6D95D5">>},
- {<<"rabbit_common">>, <<"2217845381350258C5714C22905EC197AF0C4DD38EB3B6A5DDBF55C5BD93F127">>}]}
+ {<<"amqp_client">>, <<"E12AB387FB6C129A0F60CD1A78F21D256986BE21013B2850D3B27C1E59C82763">>},
+ {<<"credentials_obfuscation">>, <<"513793CC20C18AFC9E03E584B436192A751A8344890E03A8741C65C8D6866FAB">>},
+ {<<"goldrush">>, <<"F06E5D5F1277DA5C413E84D5A2924174182FB108DABB39D5EC548B27424CD106">>},
+ {<<"jsx">>, <<"D2F6E5F069C00266CAD52FB15D87C428579EA4D7D73A33669E12679E203329DD">>},
+ {<<"lager">>, <<"3402B9A7E473680CA179FC2F1D827CAB88DD37DD1E6113090C6F45EF05228A1C">>},
+ {<<"rabbit_common">>, <<"CC667C6DF240C5CE636006B18C68039C1BE3505E87B6A818C02950218ECB43B5">>},
+ {<<"ranch">>, <<"6B1FAB51B49196860B733A49C07604465A47BDB78AA10C1C16A3D199F7F8C881">>},
+ {<<"recon">>, <<"2F7FCBEC2C35034BADE2F9717F77059DC54EB4E929A3049CA7BA6775C0BD66CD">>}]}
 ].
